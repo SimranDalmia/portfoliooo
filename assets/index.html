@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio
+    </title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaquerry.css"/>
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">SIMRAN DALMIA</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">SIMRAN DALMIA</div>
+        <div class="hamburger-menu ">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/MY PHOTO.jpeg" alt="profite photo"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <p class="title">SIMRAN DALMIA</p>
+            <p class="texts-container">SOFTWARE ENGINEER</p>
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resummmme.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="my linkedin profile" class="icon" onclick="location.href='https://linkedin.com/'"/>
+                <img src="./assets/github.png" alt="my github profile" class="icon" onclick="location.href='https://github.com/'"/>
+
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <p class="title">About me</p>
+        <div class="section-container">
+        <div class="section__pic-container">
+            <img src="./assets/myy photo.jpg" alt="profile picture" class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="experience icon" class="icon"/>
+                    <h3>Skills</h3>
+                    <p><hr>Full stack development<br>HTML, CSS, JavaScript, React Node.js, Express ,firebase</p>
+                    <p><hr>android development</p>
+                    <p><hr>machine learning</p>
+                    <p><hr>C,JAVA,JAVASCRIPT,PYHTON</p>
+                    <p><hr>SQL</p>
+                    <p><hr>proffient in microsoft suites(excel,power BI,Word)</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="education icon" class="icon"/>
+                    <h4>Education</h4>
+                    <p><hr>10th<br>year 2018-2019<br>grade-94.6%</p>
+                    <p><hr>12th<br>year 2020-2021<br>grade-92.2%</p>
+                    <p><hr>btech<br>year 2021-2025<br>grade-9.2</p>
+
+
+                </div>
+                
+            </div>
+            <div class="texts-container">
+                <p>
+                     I’m a passionate software engineer with a strong foundation in full stack development,Android development, and machine learning. My journey in tech has equipped me with a diverse set of skills,allowing me to tackle a wide range of challenges and deliver innovative solutions.
+
+                </p>
+            </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+
+    </section>
+    <br><br>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experince-sub-title">Front end development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>Html</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>javascript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>react</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>css</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+    
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experince-sub-title">Back end development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>Node.js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>Express</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>firebase</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+    
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experince-sub-title">Android development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>framework:Android SDK</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+    
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experince-sub-title">Machine learning</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experince icon" class="icon"/>
+                            <div>
+                                <h3>Data Analysis</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    Full Stack Development
+                </div>
+                <h2 class="experience-sub-title project-title">Blogging App using react,html,css,javascript,node,express,firebase</h2>
+
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    Full Stack Development
+                </div>
+                <h2 class="experience-sub-title project-title">Invoice management App using react,html,css,javascript,node,express,firebase</h2>
+
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    Android Development
+                </div>
+                <h2 class="experience-sub-title project-title">Clone of a Music App</h2>
+
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    Machine Learning
+                </div>
+                <h2 class="experience-sub-title project-title">Various projects of data analysis using supervised learning</h2>
+
+            </div>
+
+        </div>
+    </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+
+    </section>
+    <br><br>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon"/>
+                <p><a href="simrandalmia9@gmail.com">simrandalmia9@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon"/>
+                <p><a href="simrandalmia9@gmail.com">LinkedIN</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+    
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169;2024 simran dalmia.All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
